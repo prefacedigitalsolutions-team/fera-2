@@ -205,6 +205,137 @@
 
 
 
+<!-- vedio section start -->
+
+<section class="video-section">
+
+  <div class="container">
+
+    <!-- LEFT CONTENT -->
+    <div class="text-box">
+      <h2>Premium Bathroom Experience</h2>
+      <p>
+        Discover modern design, luxury fittings and elegant solutions for your bathroom.
+        Built with quality and innovation to enhance your lifestyle.
+         Discover modern design, luxury fittings and elegant solutions for your bathroom.
+        Built with quality and innovation to enhance your lifestyle.
+         Discover modern design, luxury fittings and elegant solutions for your bathroom.
+        Built with quality and innovation to enhance your lifestyle.
+      </p>
+    </div>
+
+    <!-- RIGHT VIDEO -->
+   <div class="video-box">
+
+  <iframe class="auto-video"
+    src="https://www.youtube.com/embed/D2PZUB_lDCk?autoplay=1&mute=1&loop=1&playlist=D2PZUB_lDCk"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+
+</div>
+
+  </div>
+
+</section>
+
+
+
+<style>
+
+/* SECTION */
+.video-section{
+  padding: 90px 0;
+  background: #fff;
+}
+
+/* FLEX CONTAINER */
+.video-section .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* LEFT TEXT */
+.video-section .text-box{
+  flex: 1;
+}
+
+.video-section .text-box h2{
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: #2a2a2a;
+}
+
+.video-section .text-box p{
+  font-size: 16px;
+  line-height: 1.8em;
+  color: #555;
+}
+
+/* RIGHT VIDEO BOX (CLEAN PROFESSIONAL) */
+.video-section .video-box{
+  flex: 1;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  overflow: hidden;   /* important */
+  background: #767676;
+}
+
+/* FIX BLACK BARS + FULL COVER */
+.video-section iframe{
+  width: 100%;
+  height: 450px;
+  border: 0;
+  display: block;
+  background: #4b4b4b;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px){
+
+  .video-section .container{
+    flex-direction: column;
+  }
+
+  .video-section .text-box h2{
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .video-section .text-box p{
+    text-align: center;
+  }
+
+  .video-section iframe{
+    height: 320px;
+  }
+}
+</style>
+
+
+<script>
+
+
+const video = document.querySelector(".auto-video");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+}, {
+  threshold: 0.5
+});
+
+observer.observe(video);
+
+</script>
+
         <!--Start Company Overview Area-->
         <section class="company-overview-area">
             <div class="container">
