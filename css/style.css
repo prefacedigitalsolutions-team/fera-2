@@ -13001,48 +13001,59 @@ li .single-footer-contact-info .text p span{
 
 
 
+/* Product Collection Section Start */
 
-
-/* All product  Section start */
-
-.text-section{
+.product-collection-section{
   width: 100%;
   padding: 80px 20px 0;
   background: #fff;
+
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
-/* Paragraph Style */
-.text-section p{
-  max-width: 900px;
-  margin: auto;
+/* BOX */
+.product-collection-box{
+  flex: 1;
+  max-width: 600px;
+  padding: 35px;
+  border-radius: 4px;
+  background-color: #edfdfd;
+  border: 1px solid #c8f5f5;
+}
+
+/* TEXT */
+.product-collection-box p{
   font-size: 16px;
   line-height: 1.9;
   color: #444;
   text-align: justify;
-  font-weight: 400;
+  margin: 0;
   letter-spacing: 0.3px;
 }
 
-/* Mobile Responsive */
+/* MOBILE */
 @media (max-width:768px){
 
-  .text-section{
-    padding: 50px 18px;
+  .product-collection-section{
+    padding: 50px 18px 0;
+    flex-direction: column;
   }
 
-  .text-section p{
-    font-size: 16px;
+  .product-collection-box{
+    max-width: 100%;
+    padding: 25px;
+  }
+
+  .product-collection-box p{
+    font-size: 15px;
     line-height: 1.8;
     text-align: left;
   }
 
 }
 
-
-/* All product  Section End */
-
-
-
-
-
-
+/* Product Collection Section End */
