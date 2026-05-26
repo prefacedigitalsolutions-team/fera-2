@@ -13003,4 +13003,46 @@ li .single-footer-contact-info .text p span{
 
 
 
+/* All product  Section start */
+
+.text-section{
+  width: 100%;
+  padding: 80px 20px 0;
+  background: #fff;
+}
+
+/* Paragraph Style */
+.text-section p{
+  max-width: 900px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #444;
+  text-align: justify;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* Mobile Responsive */
+@media (max-width:768px){
+
+  .text-section{
+    padding: 50px 18px;
+  }
+
+  .text-section p{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+}
+
+
+/* All product  Section End */
+
+
+
+
+
 

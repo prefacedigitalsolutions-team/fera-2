@@ -78,11 +78,11 @@
 
                         <ul>
                           <li><a href="product-1.html">Keto collection</a></li>
-                          <li><a href="product-1.html">Keto collection</a></li>
-                          <li><a href="product-1.html">Keto collection</a></li>
-                          <li><a href="product-1.html">Keto collection</a></li>
-                          <li><a href="product-1.html">Keto collection</a></li>
-                          <li><a href="product-1.html">Keto collection</a></li>
+                          <li><a href="product-1.html">Delta collection</a></li>
+                          <li><a href="product-1.html">Flow collection</a></li>
+                          <li><a href="product-1.html">Riveira collection</a></li>
+                          <li><a href="product-1.html">Aqua collection</a></li>
+                          <li><a href="product-1.html">Ocean collection</a></li>
                           
                         </ul>
                       </li>
@@ -92,8 +92,8 @@
                       <li class="dropdown">
                         <a href="#">Sanitary ware</a>
                         <ul>
-                          <li><a href="Wash-closet.html">Wash closet</a></li>
-                          <li><a href="closet-drawing.html">Wash closet with Drawing</a></li>
+                          <li><a href="Wash-closet.html">Water closet</a></li>
+                          <li><a href="closet-drawing.html">Water closet with Drawing</a></li>
                           <li><a href="wash-basin.html">Wash Basin</a></li>  
                           <li><a href="wash-basin-2.html">Wash Basin New</a></li>  
                         </ul>
@@ -101,11 +101,8 @@
 
 
                       <!-- PRODUCT LIST -->
-                      <li>
-                        <a href="product-1.html">
-                          shower
-                        </a>
-                      </li>
+                      <li><a href="shower.html">Overhead shower</a></li>
+                        
 
                       <li>
                         <a href="Drawing.html">Accessories</a>
@@ -116,15 +113,12 @@
                         <a href="Drawing.html">Product with drawing</a>
                       </li>
 
-                      <li>
-                        <a href="product-1.html"> Rain Shower Systems </a>
-                      </li>
                     </ul>
                   </li>
 
                   <!-- RESOURCE -->
                   <li>
-                    <a href="resources.html">Resource</a>
+                    <a href="resources.html">Resources</a>
                   </li>
 
                   <!-- CONTACT -->
@@ -179,7 +173,7 @@
         <!--banar section start-->
        <section class="breadcrumb-area" 
     style="
-        background-image: url(img-1/home/Home-banar-01.png);
+        background-image: url(img-1/about/Home-banar-05.jpg);
         padding: 55px 0;
         background-size: cover;
         background-position: center;
@@ -213,26 +207,25 @@
 
     <!-- LEFT CONTENT -->
     <div class="text-box">
-      <h2>Premium Bathroom Experience</h2>
+      <h2>About us</h2>
       <p>
-        Discover modern design, luxury fittings and elegant solutions for your bathroom.
-        Built with quality and innovation to enhance your lifestyle.
-         Discover modern design, luxury fittings and elegant solutions for your bathroom.
-        Built with quality and innovation to enhance your lifestyle.
-         Discover modern design, luxury fittings and elegant solutions for your bathroom.
-        Built with quality and innovation to enhance your lifestyle.
+        Sustainability and responsible manufacturing remain integral to the company’s philosophy. By adhering to environmental norms and adopting eco-conscious manufacturing practices, Nufera strives to contribute towards a cleaner and more sustainable future while maintaining uncompromising quality standards.
+
+        <br><br>
+
+        Backed by a commitment to customer satisfaction and continuous innovation, Nufera continues to establish itself as a trusted name in the bathroom solutions industry, delivering products that reflect luxury, performance, and timeless elegance.
       </p>
     </div>
 
-    <!-- RIGHT VIDEO -->
-   <div class="video-box">
+ <!-- RIGHT VIDEO -->
 
-  <iframe class="auto-video"
-    src="https://www.youtube.com/embed/D2PZUB_lDCk?autoplay=1&mute=1&loop=1&playlist=D2PZUB_lDCk"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe>
+<div class="video-box">
+  
+  <video autoplay muted loop playsinline class="custom-video">
+    <source src="img-1/about/vedio.mp4" type="video/mp4">
+  </video>
+
+</div>
 
 </div>
 
@@ -243,10 +236,9 @@
 
 
 <style>
-
 /* SECTION */
 .video-section{
-  padding: 90px 0;
+  padding: 90px 0 0;
   background: #fff;
 }
 
@@ -271,25 +263,29 @@
 
 .video-section .text-box p{
   font-size: 16px;
-  line-height: 1.8em;
+  line-height: 1.8;
   color: #555;
 }
 
-/* RIGHT VIDEO BOX (CLEAN PROFESSIONAL) */
+/* Vedio */
+
 .video-section .video-box{
   flex: 1;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1px;
+  background: #000;
   box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-  overflow: hidden;   /* important */
-  background: #767676;
 }
 
-/* FIX BLACK BARS + FULL COVER */
-.video-section iframe{
+/* VIDEO */
+.video-section .custom-video{
   width: 100%;
-  height: 450px;
-  border: 0;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  background: #4b4b4b;
+  pointer-events: none;
 }
 
 /* RESPONSIVE */
@@ -299,16 +295,16 @@
     flex-direction: column;
   }
 
+  .video-section .text-box{
+    text-align: center;
+  }
+
   .video-section .text-box h2{
     font-size: 32px;
-    text-align: center;
   }
 
-  .video-section .text-box p{
-    text-align: center;
-  }
-
-  .video-section iframe{
+  .video-section .video-box{
+    width: 100%;
     height: 320px;
   }
 }
@@ -503,7 +499,7 @@ observer.observe(video);
 
     <div class="content">
 
-        <h1>Premium Bathroom Collection</h1>
+        <h1>Thousands have lived without love<br> not one without water</h1>
 
     </div>
 
@@ -517,7 +513,7 @@ observer.observe(video);
     padding: 220px 0;
 
     /* IMAGE */
-    background-image: url("../img-1/home/Home-banar-01.jpg");
+    background-image: url("../img-1/about/static-home-02.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -645,8 +641,8 @@ observer.observe(video);
                   <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About us</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Resources</a></li>
                     <li><a href="#">Contact us</a></li>
                   </ul>
                 </div>
@@ -664,24 +660,21 @@ observer.observe(video);
                 <div class="services-links">
                   <ul>
                     <li>
-                      <a href="#"> Industrial Equipment Solutions </a>
+                      <a href="#"> CP bath fitting  </a>
                     </li>
 
                     <li>
-                      <a href="#"> Manufacturing Materials </a>
+                      <a href="#"> Sanitary ware</a>
                     </li>
 
                     <li>
-                      <a href="#"> Industrial Business Products </a>
+                      <a href="#"> Overhead showers </a>
                     </li>
 
                     <li>
-                      <a href="#"> Premium Quality Tools </a>
+                      <a href="#"> Accessories </a>
                     </li>
-
-                    <li>
-                      <a href="#"> Heavy Duty Machinery </a>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
