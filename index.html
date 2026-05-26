@@ -260,7 +260,7 @@ document.getElementById("langToggle").addEventListener("click", function () {
                         }]'
                 >
                   <div class="slide-content left-slide">
-                    <div class="big-title">Smart Flow</div>
+                    <div class="big-title">Where <br>elegance meets <br>performance</div>
                   </div>
                 </div>
 
@@ -282,11 +282,7 @@ document.getElementById("langToggle").addEventListener("click", function () {
                         }]'
                 >
                   <div class="slide-content left-slide">
-                    <div class="text">
-                      Smart Flow brings modern design, smooth performance,
-                      <br />and lasting quality for stylish spaces and everyday
-                      comfort.
-                    </div>
+                   
                   </div>
                 </div>
 
@@ -355,7 +351,7 @@ document.getElementById("langToggle").addEventListener("click", function () {
                         }]'
                 >
                   <div class="slide-content left-slide">
-                    <div class="big-title">Flow Luxury</div>
+                    <div class="big-title">Contemporary <br>styling with<br> lasting durability</div>
                   </div>
                 </div>
 
@@ -376,13 +372,7 @@ document.getElementById("langToggle").addEventListener("click", function () {
                         "ease":"Power3.easeOut"
                         }]'
                 >
-                  <div class="slide-content left-slide">
-                    <div class="text">
-                      Flow Luxury combines elegant craftsmanship with premium
-                      <br />quality to create a modern and refined water
-                      experience.
-                    </div>
-                  </div>
+                 
                 </div>
 
                 <!-- BUTTON -->
@@ -450,7 +440,7 @@ document.getElementById("langToggle").addEventListener("click", function () {
                         }]'
                 >
                   <div class="slide-content left-slide">
-                    <div class="big-title">Premium Shine</div>
+                    <div class="big-title">Beauty <br>built around <br> functionality</div>
                   </div>
                 </div>
 
@@ -471,14 +461,7 @@ document.getElementById("langToggle").addEventListener("click", function () {
                         "ease":"Power3.easeOut"
                         }]'
                 >
-                  <div class="slide-content left-slide">
-                    <div class="text">
-                      Premium Shine delivers stylish finishes and modern
-                      elegance
-                      <br />designed to enhance every kitchen and bathroom
-                      space.
-                    </div>
-                  </div>
+                 
                 </div>
 
                 <!-- BUTTON -->
@@ -618,10 +601,9 @@ document.getElementById("langToggle").addEventListener("click", function () {
             data-wow-duration="1200ms"
           >
             <p></p>
-            <div class="title clr-white">lorem <span>lorem</span></div>
+            <div class="title clr-white">Our manufacturing <span>Excellence</span></div>
             <p class="bottom-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
-              aliquid cupiditate asperiores, qui voluptate animi!
+              Sustainability and responsible manufacturing remain integral to the company’s philosophy. By adhering to environmental norms and adopting eco-conscious manufacturing practices, Nufera strives to contribute towards a cleaner and more sustainable future while maintaining uncompromising quality standards.
             </p>
           </div>
 
@@ -712,7 +694,7 @@ document.getElementById("langToggle").addEventListener("click", function () {
               >
                 <div class="img-holder">
                   <div class="inner">
-                    <img src="img-1/home/counter-2.jpg" alt="Awesome Image" />
+                    <img src="img-1/home/factory-1.jpg" alt="Awesome Image" />
                     <div class="overlay-style-one"></div>
                   </div>
                 </div>
@@ -1289,7 +1271,7 @@ document.getElementById("langToggle").addEventListener("click", function () {
 
 
 
-
+ye show nahi ho raha hai
    <!-- top to bottom -->
 
 <!-- WhatsApp Button -->
@@ -1304,6 +1286,31 @@ document.getElementById("langToggle").addEventListener("click", function () {
 
   <!-- top to bottom End -->
 
+<script>
+
+
+const scrollBtn = document.getElementById("scrollBtn");
+const whatsappBtn = document.querySelector(".whatsapp-btn");
+
+window.addEventListener("scroll", () => {
+
+  if (window.scrollY > 200) {
+    scrollBtn.classList.add("show");
+    whatsappBtn.classList.add("show");
+  } else {
+    scrollBtn.classList.remove("show");
+    whatsappBtn.classList.remove("show");
+  }
+
+});
+
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+</script>
 
 
 
